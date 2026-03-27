@@ -1,0 +1,61 @@
+1)
+
+**** For.
+Es una estructura de programación que permite reproducir en pocas líneas una iteración consecutiva de una deteminada lógica.
+
+Por ejemplo si quiero imprimir los numeros del 1 al 10 debería escribir las sentencias que correspondan hasta 10...
+
+Imprime '1'
+Imprime '2'
+Imprime '3'
+Imprime '4'
+Imprime '5'
+Imprime '6'
+.
+.
+Imprime '10'
+(Si fuera hasta 100 debería escribir 90 líneas adicionales)
+
+Pero con un bucle FOR que representa una iteración de sentencias con una determinada lógica hasta una condición límite se podría hacer...
+
+PARA i=1; mientras 1 <= 100; Por cada iteración sume 1 a i (i=i+1). Mientras se cumplan estas condiciones, en cada iteración imprima el valor de i.
+
+Imprime '1'
+Imprime '2'
+Imprime '3'
+Imprime '4'
+Imprime '5'
+Imprime '6'
+.
+.
+Imprime '100'
+
+***** Operador AND Y o bien &&
+
+Es el operador de conjunción de una proposición.
+
+Por ej Si hay PERROS y GATOS elija un shampoo. Caso contrario elija u jabón.
+
+IF PERROS && GATOS {Shampoo = true} else [jabón = true]
+
+ Para que se cumpla la proposición los 2 deben se True o bien alguno es False ya no se cumple.
+
+
+****** Operador OR o ||  
+
+IF PERROS || GATOS {Shampoo = true} else [jabón = true]
+
+Basta que cualquiera sea True se cumple la proposición y para que no se cumpla los 2 deben ser False.
+
+******* Operador | Not Negación.
+
+| PERROS Cambia su valos lógico si PERROS era True antecedido de un NOT devuelve False y si era False devuelve True.
+
+
+
+
+
+
+
+
+
